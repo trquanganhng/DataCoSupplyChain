@@ -66,6 +66,11 @@ docker build -t data_ingest:v001 .
 
 ## Usage
 
+#### Clone Repository
+```bash
+git clone https://github.com/trquanganhng/DataCoSupplyChain.git
+```
+
 #### Use Docker-Compose to run Postgres and pgAdmin together
 ```bash
 docker-compose up -d
@@ -85,3 +90,5 @@ docker run -it \
   --db=DataCoSupplyChain \
   --url=${URL} \
 ```
+
+
