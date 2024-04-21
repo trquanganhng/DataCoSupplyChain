@@ -1,6 +1,16 @@
 # DataCoSupplyChain
 Dockerized Data Ingestion and Visualization with Python, PostgreSQL, pgAdmin, and Tableau
 
+### Dataset
+Source: https://data.mendeley.com/datasets/8gx2fvg2k6/5
+
+URL = https://data.mendeley.com/public-files/datasets/8gx2fvg2k6/files/72784be5-36d3-44fe-b75d-0edbf1999f65/file_downloaded
+
+Downloading the data
+```bash
+wget https://github.com/trquanganhng/DataCoSupplyChain/releases/download/Download/DataCoSupplyChainDataset.csv
+```
+
 ## Docker Commands
 #### MacOS
 ### Running Postgres and pgAdmin
