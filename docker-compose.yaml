@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  pgdatabase:
+    image: postgres:14
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: DataCoSupplyChain
+    volumes:
+      - ./DataCoSupplyChain_postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - pgnetwork
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "8080:80"
+    networks:
+      - pgnetwork
+
+networks:
+  pgnetwork:
+    driver: bridge
