@@ -16,6 +16,11 @@ I have split the Dataset into multiple tables based on the file "DescriptionData
 
 The dataset will be separated into tables as follows (https://github.com/trquanganhng/DataCoSupplyChain/files/15068615/DataCoSupplyChain.pdf)
 
+After successfully inputting data into the Database. I created a few Dashboards from these data using Tableau.
+
+Summary: https://github.com/trquanganhng/DataCoSupplyChain/files/15068619/Visualization.pdf
+
+Folders: https://github.com/trquanganhng/DataCoSupplyChain/tree/d679b9d043dc24caf51cc14f5795855f40610ec7/Visualization
 
 ## Usage
 #### MacOS
